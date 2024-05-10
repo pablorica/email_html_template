@@ -25,7 +25,22 @@ For instance, in Outlook that can be achieved in `Preferences -> Signature`.
 -   Use the HTML no breaking space symbol ( **&****n****b****s****p;** )  to fill empty spaces. **Do not use blank gifs**
 -   If you find problems in **iOS Mail App**, with the font color on **<****span****>** or **<****p****>** tags use **a** link tags
 -   Use **minified HTML** to build the signatures ([minifier tool](https://codebeautify.org/htmlviewer))
+-   Use `<span>` tagis instead of `<p>` tags to avoid unwanted spaces (this usually happens if the email is sent from Outlook),
 
+	-	 i.e.: Instead of 
+		```HTML
+    		<p style="margin: 0;font-family:Arial,Helvetica,sans-serif;mso-line-height-rule:exactly;line-height:16px;font-size:14px;font-weight:bold;color:#4f5444;">Enter Projects Asia</p>
+    		<p style="margin: 0;font-family:Arial,Helvetica,sans-serif;mso-line-height-rule:exactly;line-height:18px;font-size:14px;color:#4f5444;">49/15 Boat Avenue, Cherngtalay</p>
+    		<p style="margin: 0;font-family:Arial,Helvetica,sans-serif;mso-line-height-rule:exactly;line-height:18px;font-size:14px;color:#4f5444;">Thalang, Phuket 83110, Thailand</p>
+		
+	
+        use
+        ```HTML
+        <p style="margin: 0;font-family:Arial,Helvetica,sans-serif;mso-line-height-rule:exactly;line-height:16px;font-size:14px;">
+            <span style="font-family:Arial,Helvetica,sans-serif;mso-line-height-rule:exactly;line-height:16px;font-size:14px;font-weight:bold;color:#4f5444;">Enter Projects Asia</span>
+            <span style="margin: 0;font-family:Arial,Helvetica,sans-serif;mso-line-height-rule:exactly;line-height:18px;font-size:14px;color:#4f5444;">49/15 Boat Avenue, Cherngtalay</span>
+            <span style="margin: 0;font-family:Arial,Helvetica,sans-serif;mso-line-height-rule:exactly;line-height:18px;font-size:14px;color:#4f5444;">Thalang, Phuket 83110, Thailand</span>
+        </p>
   
 
 ### External  Tools
