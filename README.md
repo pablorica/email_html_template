@@ -28,6 +28,7 @@ For instance, in Outlook that can be achieved in `Preferences -> Signature`.
 -   Use `<span>` tagis instead of `<p>` tags to avoid unwanted spaces (this usually happens if the email is sent from Outlook),
 
 	-	 i.e.: Instead of 
+
 		```HTML
     		<p style="margin: 0;font-family:Arial,Helvetica,sans-serif;mso-line-height-rule:exactly;line-height:16px;font-size:14px;font-weight:bold;color:#4f5444;">Enter Projects Asia</p>
     		<p style="margin: 0;font-family:Arial,Helvetica,sans-serif;mso-line-height-rule:exactly;line-height:18px;font-size:14px;color:#4f5444;">49/15 Boat Avenue, Cherngtalay</p>
@@ -35,6 +36,7 @@ For instance, in Outlook that can be achieved in `Preferences -> Signature`.
 		
 	
         use
+        
         ```HTML
         <p style="margin: 0;font-family:Arial,Helvetica,sans-serif;mso-line-height-rule:exactly;line-height:16px;font-size:14px;">
             <span style="font-family:Arial,Helvetica,sans-serif;mso-line-height-rule:exactly;line-height:16px;font-size:14px;font-weight:bold;color:#4f5444;">Enter Projects Asia</span>
