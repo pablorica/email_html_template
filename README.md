@@ -5,7 +5,7 @@ Straightforward, minimalist template for HTML emails
 
 Based in [Base Template](https://www.goodemailcode.com/email-code/template.html)
 
-[![version](https://img.shields.io/badge/version-0.1.0-yellow.svg)](https://semver.org)
+[![version](https://img.shields.io/badge/version-0.1.1-yellow.svg)](https://semver.org)
 
 ## Installation
 
@@ -25,7 +25,7 @@ For instance, in Outlook that can be achieved in `Preferences -> Signature`.
 -   Use the HTML no breaking space symbol ( **&****n****b****s****p;** )  to fill empty spaces. **Do not use blank gifs**
 -   If you find problems in **iOS Mail App**, with the font color on `<span>` or `<p>` tags use `<a>` link tags
 -   Use **minified HTML** to build the signatures ([minifier tool](https://codebeautify.org/htmlviewer))
--   Use `<span>` tagis instead of `<p>` tags to avoid unwanted spaces (this usually happens if the email is sent from Outlook),
+-   Use `<span>` tags instead of `<p>` tags to avoid unwanted spaces (this usually happens if the email is sent from Outlook),
 
 	-	 i.e.: 
 
@@ -70,3 +70,11 @@ MIT
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning.
+
+### Changelog
+
+    0.1.1
+    Update README with Outlook tips
+      
+    0.1.0
+    First version
