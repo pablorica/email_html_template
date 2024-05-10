@@ -32,9 +32,9 @@ For instance, in Outlook that can be achieved in `Preferences -> Signature`.
 		
         Instead of 
 
-    		<p style="margin: 0;font-family:Arial,Helvetica,sans-serif;mso-line-height-rule:exactly;line-height:16px;font-size:14px;font-weight:bold;color:#4f5444;">Enter Projects Asia</p>
-    		<p style="margin: 0;font-family:Arial,Helvetica,sans-serif;mso-line-height-rule:exactly;line-height:18px;font-size:14px;color:#4f5444;">49/15 Boat Avenue, Cherngtalay</p>
-    		<p style="margin: 0;font-family:Arial,Helvetica,sans-serif;mso-line-height-rule:exactly;line-height:18px;font-size:14px;color:#4f5444;">Thalang, Phuket 83110, Thailand</p>
+        <p style="margin: 0;font-family:Arial,Helvetica,sans-serif;mso-line-height-rule:exactly;line-height:16px;font-size:14px;font-weight:bold;color:#4f5444;">Enter Projects Asia</p>
+        <p style="margin: 0;font-family:Arial,Helvetica,sans-serif;mso-line-height-rule:exactly;line-height:18px;font-size:14px;color:#4f5444;">49/15 Boat Avenue, Cherngtalay</p>
+        <p style="margin: 0;font-family:Arial,Helvetica,sans-serif;mso-line-height-rule:exactly;line-height:18px;font-size:14px;color:#4f5444;">Thalang, Phuket 83110, Thailand</p>
 	
         use
 
