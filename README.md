@@ -23,7 +23,7 @@ For instance, in Outlook that can be achieved in `Preferences -> Signature`.
 -   Use the HTML no breaking space symbol ( **&****n****b****s****p;** ) between words to avoid wrapping in small devices (_white-space:nowrap_ usually does not work in most email clients).  
     Example: `Commercial&nbsp;Director`
 -   Use the HTML no breaking space symbol ( **&****n****b****s****p;** )  to fill empty spaces. **Do not use blank gifs**
--   If you find problems in **iOS Mail App**, with the font color on **<****span****>** or **<****p****>** tags use **a** link tags
+-   If you find problems in **iOS Mail App**, with the font color on `<span>` or `<p>` tags use `<a>` link tags
 -   Use **minified HTML** to build the signatures ([minifier tool](https://codebeautify.org/htmlviewer))
 -   Use `<span>` tagis instead of `<p>` tags to avoid unwanted spaces (this usually happens if the email is sent from Outlook),
 
